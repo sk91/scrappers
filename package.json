@@ -1,0 +1,26 @@
+{
+  "name": "scrappers",
+  "version": "1.0.0",
+  "description": "A collection of common scrappers",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jasmine-node test --autoTest --watchFolders ./  --captureExceptions "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:sk91/scrappers.git"
+  },
+  "author": "max",
+  "devDependencies": {
+    "jasmine-node": "2.0.0-beta4",
+    "jasmine": "^2.0.1",
+    "mitm": "^1.0.2"
+  },
+  "dependencies": {
+    "iconv": "^2.1.4",
+    "lodash": "^2.4.1",
+    "ortoo-feedparser": "^0.11.0",
+    "scraperjs": "^0.3.1"
+  }
+}
