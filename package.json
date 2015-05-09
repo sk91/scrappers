@@ -1,16 +1,29 @@
 {
   "name": "scrappers",
   "version": "1.0.0",
-  "description": "A collection of common scrappers",
+  "description": "A set of utility classes for node.js to make scrapping the web easier.",
   "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "scrapping",
+    "scrappers",
+    "parse",
+    "scrapy",
+    "rss",
+    "html"
+  ],
   "scripts": {
     "test": "jasmine-node test   --captureExceptions "
   },
+  "bugs": {
+   "url": "https://github.com/sk91/scrappers/issues"
+  },
+  "analyze": true,
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:sk91/scrappers.git"
+    "url": "https://github.com/sk91/scrappers"
   },
-  "author": "max",
+  "author": "Maxim Kovalov <max.kovalov@gmail.com>",
   "devDependencies": {
     "jasmine-node": "2.0.0-beta4",
     "jasmine": "^2.0.1",
@@ -21,6 +34,7 @@
     "lodash": "^2.4.1",
     "noop": "^0.2.2",
     "ortoo-feedparser": "^0.11.0",
+    "request": "^2.55.0",
     "scraperjs": "^0.3.1"
   }
 }
