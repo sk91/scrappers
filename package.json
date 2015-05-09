@@ -1,6 +1,6 @@
 {
   "name": "scrappers",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A set of utility classes for node.js to make scrapping the web easier.",
   "main": "index.js",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "test": "jasmine-node test   --captureExceptions "
   },
   "bugs": {
-   "url": "https://github.com/sk91/scrappers/issues"
+    "url": "https://github.com/sk91/scrappers/issues"
   },
   "analyze": true,
   "repository": {
