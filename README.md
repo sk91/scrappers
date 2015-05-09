@@ -5,6 +5,12 @@ A set of utility classes for node.js to make scrapping the web easier.
 
 There is support for custom browser headers, encodings and compression.
 
+Install
+=======
+````bash
+npm install --save scrapper
+````
+
 Scrapper options
 ================
 
